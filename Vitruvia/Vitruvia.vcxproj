@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1911D1D8-8933-4089-A567-B8B618950E2A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Vitruvia</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VITRUVIA_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;VITRUVIA_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VITRUVIA_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;VITRUVIA_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceSDK\Classes\BSPFlags.h" />
+    <ClInclude Include="SourceSDK\Classes\Buffer.h" />
+    <ClInclude Include="SourceSDK\Classes\CClientState.h" />
+    <ClInclude Include="SourceSDK\Classes\CCSGOPlayerAnimState.h" />
+    <ClInclude Include="SourceSDK\Classes\CEffectDispatch.h" />
+    <ClInclude Include="SourceSDK\Classes\CGlobalVarsBase.h" />
+    <ClInclude Include="SourceSDK\Classes\CGlowObject.h" />
+    <ClInclude Include="SourceSDK\Classes\CHandle.h" />
+    <ClInclude Include="SourceSDK\Classes\CHud.h" />
+    <ClInclude Include="SourceSDK\Classes\CInput.h" />
+    <ClInclude Include="SourceSDK\Classes\Color.h" />
+    <ClInclude Include="SourceSDK\Classes\CRC\CRC.h" />
+    <ClInclude Include="SourceSDK\Classes\CRender.h" />
+    <ClInclude Include="SourceSDK\Classes\CUtlMemory.h" />
+    <ClInclude Include="SourceSDK\Classes\CUtlStack.h" />
+    <ClInclude Include="SourceSDK\Classes\CUtlVector.h" />
+    <ClInclude Include="SourceSDK\Classes\DataMap.h" />
+    <ClInclude Include="SourceSDK\Classes\KeyValues.h" />
+    <ClInclude Include="SourceSDK\Classes\Maths\Maths.h" />
+    <ClInclude Include="SourceSDK\Classes\Maths\Quaternion.h" />
+    <ClInclude Include="SourceSDK\Classes\Maths\Vector.h" />
+    <ClInclude Include="SourceSDK\Classes\MD5\MD5.h" />
+    <ClInclude Include="SourceSDK\Classes\platform.hpp" />
+    <ClInclude Include="SourceSDK\Classes\PlayerInfo.h" />
+    <ClInclude Include="SourceSDK\Classes\Recv\ClientClass.h" />
+    <ClInclude Include="SourceSDK\Classes\Recv\Recv.h" />
+    <ClInclude Include="SourceSDK\Classes\ThreadTools.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client\IBaseClientDLL.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client\IClientEntity.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client\IClientEntityList.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client\IClientMode.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client\ICVar.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client\IGameMovement.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client\IPrediction.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client\IViewRenderBeams.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\ICollideable.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IEngineSound.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IEngineTrace.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IGameEvent.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\INetChannelInfo.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\INetworkStringTable.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVDebugOverlay.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVEngineClient.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVModelCache.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVModelInfo.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVModelRender.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVPhysics.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVRenderView.h" />
+    <ClInclude Include="SourceSDK\Interfaces\IAppSystem.h" />
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem\AnalogCode.h" />
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem\ButtonCode.h" />
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem\IInputSystem.h" />
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem\InputEnums.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Localize\ILocalize.h" />
+    <ClInclude Include="SourceSDK\Interfaces\MaterialSystem\IMaterial.h" />
+    <ClInclude Include="SourceSDK\Interfaces\MaterialSystem\IMaterialSystem.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Steam\SteamUniverse.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Steam\ISteamHTTP.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Surface\IPanel.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Surface\ISurface.h" />
+    <ClInclude Include="SourceSDK\SourceCommon.h" />
+    <ClInclude Include="SourceSDK\SourceEnums.h" />
+    <ClInclude Include="SourceSDK\SourceSDK.h" />
+    <ClInclude Include="Vitruvia\Config\Config.h" />
+    <ClInclude Include="Vitruvia\Config\json.hpp" />
+    <ClInclude Include="Vitruvia\Database.h" />
+    <ClInclude Include="Vitruvia\Encryption\XorCompileTime.hpp" />
+    <ClInclude Include="Vitruvia\Features\HvH\HvH.h" />
+    <ClInclude Include="Vitruvia\Features\IFeature.h" />
+    <ClInclude Include="Vitruvia\Features\Legit\Legit.h" />
+    <ClInclude Include="Vitruvia\Features\Misc\Misc.h" />
+    <ClInclude Include="Vitruvia\Features\Rage\Rage.h" />
+    <ClInclude Include="Vitruvia\Features\Skins\Skins.h" />
+    <ClInclude Include="Vitruvia\Features\Visuals\Visuals.h" />
+    <ClInclude Include="Vitruvia\Globals\VitruviaGlobals.h" />
+    <ClInclude Include="Vitruvia\GUI\Menu.h" />
+    <ClInclude Include="Vitruvia\GUI\ImGui\DX9\imgui_impl_dx9.h" />
+    <ClInclude Include="Vitruvia\GUI\ImGui\imconfig.h" />
+    <ClInclude Include="Vitruvia\GUI\ImGui\imgui.h" />
+    <ClInclude Include="Vitruvia\GUI\ImGui\imgui_internal.h" />
+    <ClInclude Include="Vitruvia\GUI\ImGui\stb_rect_pack.h" />
+    <ClInclude Include="Vitruvia\GUI\ImGui\stb_textedit.h" />
+    <ClInclude Include="Vitruvia\GUI\ImGui\stb_truetype.h" />
+    <ClInclude Include="Vitruvia\GUI\Legacy\GUI.h" />
+    <ClInclude Include="Vitruvia\GUI\Legacy\Input\MenuInput.h" />
+    <ClInclude Include="Vitruvia\Hooks\EventListeners\EventListeners.h" />
+    <ClInclude Include="Vitruvia\Hooks\Hooks.h" />
+    <ClInclude Include="Vitruvia\Hooks\Manager\HookManager.h" />
+    <ClInclude Include="Vitruvia\InterfaceList\InterfaceList.h" />
+    <ClInclude Include="Vitruvia\Netvars\NetvarManager.h" />
+    <ClInclude Include="Vitruvia\Offsets\Offsets.h" />
+    <ClInclude Include="Vitruvia\Renderer\D3D\D3D_Renderer.h" />
+    <ClInclude Include="Vitruvia\Renderer\Fonts\Fonts.h" />
+    <ClInclude Include="Vitruvia\Renderer\Renderer.h" />
+    <ClInclude Include="Vitruvia\Skins\ItemDefinitions\ItemDefinitions.h" />
+    <ClInclude Include="Vitruvia\Skins\KitParser\KitParser.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseAnimating.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseAnimatingOverlay.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseAttributableItem.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseBeam.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseCombatCharacter.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseCombatWeapon.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseCSGrenade.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseCSGrenadeProjectile.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseEntity.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseFlex.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseGrenade.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_BasePlayer.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_CSGameRulesProxy.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_CSPlayer.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_CSPlayerResource.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_EconEntity.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_EconItem.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_Inferno.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_MolotovProjectile.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_PlantedC4.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_PlayerInventory.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_PlayerResource.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_SmokeGrenadeProjectile.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_WeaponBaseItem.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_WeaponC4.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_WeaponCSBase.h" />
+    <ClInclude Include="Vitruvia\SourceClasses\C_World.h" />
+    <ClInclude Include="Vitruvia\Tools\Autowall.h" />
+    <ClInclude Include="Vitruvia\Tools\EnginePrediction.h" />
+    <ClInclude Include="Vitruvia\Tools\GrenadePrediction.h" />
+    <ClInclude Include="Vitruvia\Tools\SpreadManager.h" />
+    <ClInclude Include="Vitruvia\Tools\ThirdPerson.h" />
+    <ClInclude Include="Vitruvia\Utils\CrashLogger\CrashLogger.h" />
+    <ClInclude Include="Vitruvia\Utils\GameHelper\GameHelper.h" />
+    <ClInclude Include="Vitruvia\Utils\VitruviaUtils.h" />
+    <ClInclude Include="Vitruvia\Vitruvia.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceSDK\Classes\CRC\CRC.cpp" />
+    <ClCompile Include="SourceSDK\Classes\Maths\Maths.cpp" />
+    <ClCompile Include="SourceSDK\Classes\MD5\MD5.cpp" />
+    <ClCompile Include="SourceSDK\Interfaces\Client\SpoofedConvar.cpp" />
+    <ClCompile Include="SourceSDK\Interfaces\MaterialSystem\IMaterialSystem.cpp" />
+    <ClCompile Include="Vitruvia\Config\Config.cpp" />
+    <ClCompile Include="Vitruvia\Features\Features.cpp" />
+    <ClCompile Include="Vitruvia\Features\HvH\HvH.cpp" />
+    <ClCompile Include="Vitruvia\Features\Legit\Legit.cpp" />
+    <ClCompile Include="Vitruvia\Features\Misc\Misc.cpp" />
+    <ClCompile Include="Vitruvia\Features\Rage\Rage.cpp" />
+    <ClCompile Include="Vitruvia\Features\Skins\Skins.cpp" />
+    <ClCompile Include="Vitruvia\Features\Visuals\Visuals.cpp" />
+    <ClCompile Include="Vitruvia\Globals\VitruviaGlobals.cpp" />
+    <ClCompile Include="Vitruvia\GUI\ImGui\DX9\imgui_impl_dx9.cpp" />
+    <ClCompile Include="Vitruvia\GUI\ImGui\imgui.cpp" />
+    <ClCompile Include="Vitruvia\GUI\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\GUI.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\Input\MenuInput.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\CheckBox.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\DropDown.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\Frame.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\GroupBox.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\KeyReader.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\MenuItem.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\Slider.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\Tab.cpp" />
+    <ClCompile Include="Vitruvia\GUI\Menu.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\EventListeners\EventListeners.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\CreateMove.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\DispatchUserMessage.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\DrawModelExecute.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\EmitSound.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\EndScene.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\FireEvent.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\FrameStageNotify.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\IsBoxVisible.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\Netvar Proxies\DidSmokeEffect.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\Netvar Proxies\LowerBodyYawTarget.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\Netvar Proxies\Sequence.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\OnScreenSizeChanged.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\OverrideConfig.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\OverrideView.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\PaintTraverse.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\PlaySound.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\RenderView.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\Reset.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\TraceRay.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\WndProc.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Functions\WriteUserCmdDeltaToBuffer.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Hooks.cpp" />
+    <ClCompile Include="Vitruvia\Hooks\Manager\HookManager.cpp" />
+    <ClCompile Include="Vitruvia\InterfaceList\InterfaceList.cpp" />
+    <ClCompile Include="Vitruvia\Netvars\NetvarManager.cpp" />
+    <ClCompile Include="Vitruvia\Offsets\Offsets.cpp" />
+    <ClCompile Include="Vitruvia\Renderer\D3D\D3D_Renderer.cpp" />
+    <ClCompile Include="Vitruvia\Renderer\Fonts\Fonts.cpp" />
+    <ClCompile Include="Vitruvia\Renderer\Renderer.cpp" />
+    <ClCompile Include="Vitruvia\Skins\ItemDefinitions\ItemDefinitions.cpp" />
+    <ClCompile Include="Vitruvia\Skins\KitParser\KitParser.cpp" />
+    <ClCompile Include="Vitruvia\SourceClasses\C_BaseAnimatingOverlay.cpp" />
+    <ClCompile Include="Vitruvia\SourceClasses\C_BaseCombatWeapon.cpp" />
+    <ClCompile Include="Vitruvia\SourceClasses\C_CSPlayer.cpp" />
+    <ClCompile Include="Vitruvia\SourceClasses\C_EconItem.cpp" />
+    <ClCompile Include="Vitruvia\SourceClasses\C_PlayerInventory.cpp" />
+    <ClCompile Include="Vitruvia\Tools\Autowall.cpp" />
+    <ClCompile Include="Vitruvia\Tools\EnginePrediction.cpp" />
+    <ClCompile Include="Vitruvia\Tools\GrenadePrediction.cpp" />
+    <ClCompile Include="Vitruvia\Tools\SpreadManager.cpp" />
+    <ClCompile Include="Vitruvia\Tools\ThirdPerson.cpp" />
+    <ClCompile Include="Vitruvia\Utils\CrashLogger\CrashLogger.cpp" />
+    <ClCompile Include="Vitruvia\Utils\GameHelper\GameHelper.cpp" />
+    <ClCompile Include="Vitruvia\Utils\VitruviaUtils.cpp" />
+    <ClCompile Include="Vitruvia\VitruviaMain.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

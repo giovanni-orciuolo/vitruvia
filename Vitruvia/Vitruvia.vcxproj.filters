@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceSDK">
+      <UniqueIdentifier>{5a5eb23d-a033-44c5-8400-cbfe622ffb02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Classes">
+      <UniqueIdentifier>{d8f43d54-99b3-4586-9e6d-2bf42085e39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Interfaces">
+      <UniqueIdentifier>{2b2ef140-7f4e-40e2-b266-0d17f3f1c07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Classes\CRC">
+      <UniqueIdentifier>{ca9fb175-ddf0-4ee5-a038-14c8ae9dadff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Classes\Maths">
+      <UniqueIdentifier>{298ce823-f3d1-45a9-8188-12abe2794658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Classes\MD5">
+      <UniqueIdentifier>{31fbe4ef-bb9b-4e06-aa25-6fb13cfe1599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Classes\Recv">
+      <UniqueIdentifier>{a0fd18b7-c5d9-4ce7-957c-f05fdd7a505a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Interfaces\Client">
+      <UniqueIdentifier>{cc5dffe3-a6eb-4d9a-bb50-87665be9023b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Interfaces\Engine">
+      <UniqueIdentifier>{5c95297c-fc74-4ce7-bce7-b44b04ffb86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Interfaces\InputSystem">
+      <UniqueIdentifier>{d38b337e-e41c-4882-ae58-591f63e0b5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Interfaces\MaterialSystem">
+      <UniqueIdentifier>{1a1a980e-ce34-46fc-bca0-b7e78b8bfd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Interfaces\Surface">
+      <UniqueIdentifier>{c439bddc-7153-4105-97d6-ca220d3b5f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia">
+      <UniqueIdentifier>{377d38ed-9cd8-4b14-9cac-322aae60d182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Config">
+      <UniqueIdentifier>{fa1914da-f540-44b2-8264-184b33225c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Encryption">
+      <UniqueIdentifier>{f4cfac1b-f723-4e38-9132-377134b6770a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Features">
+      <UniqueIdentifier>{fef61b0b-67b9-40ee-9d4b-27168e5208ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Globals">
+      <UniqueIdentifier>{c3de8da7-6972-4774-9801-165f12b7bdd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Hooks">
+      <UniqueIdentifier>{3d7845ad-7ccd-4489-8d44-7a259a7e07d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\InterfaceList">
+      <UniqueIdentifier>{9a2990bc-3fbd-4606-8fe6-bdd7462cd516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Netvars">
+      <UniqueIdentifier>{32edb6b4-0cfd-46af-890d-3f4cb69ed933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Offsets">
+      <UniqueIdentifier>{575bc37e-4309-4616-bd86-3930a6408ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\SourceClasses">
+      <UniqueIdentifier>{4cb90557-56a4-4a69-81cb-0276cc83769a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Utils">
+      <UniqueIdentifier>{85a9cb28-1fa0-4001-9de1-87e01aa76a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Features\Legit">
+      <UniqueIdentifier>{67360d3c-6e91-4b89-b2d1-e68cca97eef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Features\Visuals">
+      <UniqueIdentifier>{95b49db0-34a2-4381-945f-8c81b02b7037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Hooks\EventListeners">
+      <UniqueIdentifier>{7215c59f-8d08-4f6d-8afd-ccd149945fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Hooks\Functions">
+      <UniqueIdentifier>{fe46f3bd-9243-4f09-985b-ea67e7233608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Hooks\Manager">
+      <UniqueIdentifier>{58fa8de2-98c5-423f-b50a-f0fbb359de66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\GUI">
+      <UniqueIdentifier>{d7060ec8-832b-40f0-a64b-b5c0e1148da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\GUI\Legacy">
+      <UniqueIdentifier>{fb318b39-8541-475b-8767-1c5b02402063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\GUI\Legacy\Input">
+      <UniqueIdentifier>{ab059fcc-798f-4198-83b2-83459c6d6507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\GUI\Legacy\MenuItems">
+      <UniqueIdentifier>{ffacf7f7-1d92-4d72-8329-bf836f088e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\GUI\ImGui">
+      <UniqueIdentifier>{846e870e-f598-4751-9cf8-391fc880998a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\GUI\ImGui\DX9">
+      <UniqueIdentifier>{527d868c-647d-414b-8b0d-d1874c2ca927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Features\Rage">
+      <UniqueIdentifier>{cff90736-43ca-4fd6-8973-94c3639afcc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Features\HvH">
+      <UniqueIdentifier>{1a50823b-1b28-4408-89d1-bccf58df597d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Features\Misc">
+      <UniqueIdentifier>{f77d641a-3f98-4a07-8b48-529cfc3b1cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Skins">
+      <UniqueIdentifier>{15d672ee-c706-40f4-8622-8cc29a159d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Skins\KitParser">
+      <UniqueIdentifier>{83505499-dbb0-4a00-8ece-54f6eb55d80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Interfaces\Localize">
+      <UniqueIdentifier>{f1cf0002-6336-41d3-b044-e61b2ea612e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Skins\ItemDefinitions">
+      <UniqueIdentifier>{691a2a6d-eb21-4130-8fc0-a246cdd85818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Features\Skins">
+      <UniqueIdentifier>{bec081e0-08e1-4819-bfbf-aa94484b5ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Hooks\Functions\Netvar Proxies">
+      <UniqueIdentifier>{d97bb08d-8ce5-43f0-9612-83babfa11b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\Interfaces\Steam">
+      <UniqueIdentifier>{21279fd1-373f-4e92-8646-6310dafbbdd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Tools">
+      <UniqueIdentifier>{1e8e52e5-7729-4963-adf1-26aab5794402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Renderer">
+      <UniqueIdentifier>{2f689abd-ab1c-4d43-a45a-53e65ddb9dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Renderer\Fonts">
+      <UniqueIdentifier>{08b05f3a-f0e6-4439-9089-01ff0711d8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Renderer\D3D">
+      <UniqueIdentifier>{cfd6d10d-ee99-48da-aec8-dd3b17e544e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Utils\CrashLogger">
+      <UniqueIdentifier>{187f5b09-c98c-43bd-a5b0-f43868437cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vitruvia\Utils\GameHelper">
+      <UniqueIdentifier>{c4991795-17c1-4acb-9128-345e1776a0f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceSDK\SourceCommon.h">
+      <Filter>SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\SourceSDK.h">
+      <Filter>SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\SourceEnums.h">
+      <Filter>SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\BSPFlags.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CClientState.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CGlobalVarsBase.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CGlowObject.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CHandle.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CInput.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\Color.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CUtlMemory.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CUtlVector.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\KeyValues.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\PlayerInfo.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CRC\CRC.h">
+      <Filter>SourceSDK\Classes\CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\Maths\Maths.h">
+      <Filter>SourceSDK\Classes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\Maths\Quaternion.h">
+      <Filter>SourceSDK\Classes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\Maths\Vector.h">
+      <Filter>SourceSDK\Classes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\MD5\MD5.h">
+      <Filter>SourceSDK\Classes\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\Recv\ClientClass.h">
+      <Filter>SourceSDK\Classes\Recv</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\Recv\Recv.h">
+      <Filter>SourceSDK\Classes\Recv</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\IAppSystem.h">
+      <Filter>SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client\IBaseClientDLL.h">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client\IClientEntity.h">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client\IClientEntityList.h">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client\IClientMode.h">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client\ICVar.h">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client\IGameMovement.h">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client\IPrediction.h">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\ICollideable.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IEngineTrace.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IGameEvent.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\INetChannelInfo.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\INetworkStringTable.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVDebugOverlay.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVEngineClient.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVModelCache.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVModelInfo.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVModelRender.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVPhysics.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IVRenderView.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem\AnalogCode.h">
+      <Filter>SourceSDK\Interfaces\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem\ButtonCode.h">
+      <Filter>SourceSDK\Interfaces\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem\IInputSystem.h">
+      <Filter>SourceSDK\Interfaces\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem\InputEnums.h">
+      <Filter>SourceSDK\Interfaces\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\MaterialSystem\IMaterial.h">
+      <Filter>SourceSDK\Interfaces\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\MaterialSystem\IMaterialSystem.h">
+      <Filter>SourceSDK\Interfaces\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Surface\IPanel.h">
+      <Filter>SourceSDK\Interfaces\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Surface\ISurface.h">
+      <Filter>SourceSDK\Interfaces\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Vitruvia.h">
+      <Filter>Vitruvia</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Config\Config.h">
+      <Filter>Vitruvia\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Encryption\XorCompileTime.hpp">
+      <Filter>Vitruvia\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Features\IFeature.h">
+      <Filter>Vitruvia\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Features\Legit\Legit.h">
+      <Filter>Vitruvia\Features\Legit</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Features\Visuals\Visuals.h">
+      <Filter>Vitruvia\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Globals\VitruviaGlobals.h">
+      <Filter>Vitruvia\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Hooks\Hooks.h">
+      <Filter>Vitruvia\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Hooks\EventListeners\EventListeners.h">
+      <Filter>Vitruvia\Hooks\EventListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Hooks\Manager\HookManager.h">
+      <Filter>Vitruvia\Hooks\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\InterfaceList\InterfaceList.h">
+      <Filter>Vitruvia\InterfaceList</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Netvars\NetvarManager.h">
+      <Filter>Vitruvia\Netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Utils\VitruviaUtils.h">
+      <Filter>Vitruvia\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseAnimating.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseAnimatingOverlay.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseAttributableItem.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseCombatCharacter.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseCombatWeapon.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseCSGrenade.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseCSGrenadeProjectile.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseEntity.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseFlex.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseGrenade.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BasePlayer.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_CSGameRulesProxy.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_CSPlayer.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_CSPlayerResource.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_EconEntity.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_Inferno.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_MolotovProjectile.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_PlayerResource.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_SmokeGrenadeProjectile.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_WeaponBaseItem.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_WeaponC4.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_WeaponCSBase.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Renderer\Renderer.h">
+      <Filter>Vitruvia\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Renderer\Fonts\Fonts.h">
+      <Filter>Vitruvia\Renderer\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Offsets\Offsets.h">
+      <Filter>Vitruvia\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Renderer\D3D\D3D_Renderer.h">
+      <Filter>Vitruvia\Renderer\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\Legacy\GUI.h">
+      <Filter>Vitruvia\GUI\Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\Legacy\Input\MenuInput.h">
+      <Filter>Vitruvia\GUI\Legacy\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\ImGui\imconfig.h">
+      <Filter>Vitruvia\GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\ImGui\imgui.h">
+      <Filter>Vitruvia\GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\ImGui\imgui_internal.h">
+      <Filter>Vitruvia\GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\ImGui\stb_rect_pack.h">
+      <Filter>Vitruvia\GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\ImGui\stb_textedit.h">
+      <Filter>Vitruvia\GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\ImGui\stb_truetype.h">
+      <Filter>Vitruvia\GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\ImGui\DX9\imgui_impl_dx9.h">
+      <Filter>Vitruvia\GUI\ImGui\DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\GUI\Menu.h">
+      <Filter>Vitruvia\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Config\json.hpp">
+      <Filter>Vitruvia\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Features\Rage\Rage.h">
+      <Filter>Vitruvia\Features\Rage</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Features\HvH\HvH.h">
+      <Filter>Vitruvia\Features\HvH</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Features\Misc\Misc.h">
+      <Filter>Vitruvia\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Skins\KitParser\KitParser.h">
+      <Filter>Vitruvia\Skins\KitParser</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Localize\ILocalize.h">
+      <Filter>SourceSDK\Interfaces\Localize</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Skins\ItemDefinitions\ItemDefinitions.h">
+      <Filter>Vitruvia\Skins\ItemDefinitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Features\Skins\Skins.h">
+      <Filter>Vitruvia\Features\Skins</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Steam\ISteamHTTP.h">
+      <Filter>SourceSDK\Interfaces\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Steam\SteamUniverse.h">
+      <Filter>SourceSDK\Interfaces\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_PlantedC4.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\platform.hpp">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CEffectDispatch.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Tools\GrenadePrediction.h">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Tools\EnginePrediction.h">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_World.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Tools\Autowall.h">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Tools\ThirdPerson.h">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_BaseBeam.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Database.h">
+      <Filter>Vitruvia</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine\IEngineSound.h">
+      <Filter>SourceSDK\Interfaces\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CHud.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\Buffer.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Tools\SpreadManager.h">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client\IViewRenderBeams.h">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\ThreadTools.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Utils\CrashLogger\CrashLogger.h">
+      <Filter>Vitruvia\Utils\CrashLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\Utils\GameHelper\GameHelper.h">
+      <Filter>Vitruvia\Utils\GameHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\DataMap.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CCSGOPlayerAnimState.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CUtlStack.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Classes\CRender.h">
+      <Filter>SourceSDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_EconItem.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vitruvia\SourceClasses\C_PlayerInventory.h">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceSDK\Classes\CRC\CRC.cpp">
+      <Filter>SourceSDK\Classes\CRC</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Classes\Maths\Maths.cpp">
+      <Filter>SourceSDK\Classes\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Classes\MD5\MD5.cpp">
+      <Filter>SourceSDK\Classes\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Interfaces\MaterialSystem\IMaterialSystem.cpp">
+      <Filter>SourceSDK\Interfaces\MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\VitruviaMain.cpp">
+      <Filter>Vitruvia</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Config\Config.cpp">
+      <Filter>Vitruvia\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Features\Features.cpp">
+      <Filter>Vitruvia\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Features\Legit\Legit.cpp">
+      <Filter>Vitruvia\Features\Legit</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Features\Visuals\Visuals.cpp">
+      <Filter>Vitruvia\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Globals\VitruviaGlobals.cpp">
+      <Filter>Vitruvia\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Hooks.cpp">
+      <Filter>Vitruvia\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\EventListeners\EventListeners.cpp">
+      <Filter>Vitruvia\Hooks\EventListeners</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\CreateMove.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\DrawModelExecute.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\FireEvent.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\FrameStageNotify.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\OnScreenSizeChanged.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\OverrideView.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\PaintTraverse.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\PlaySound.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Manager\HookManager.cpp">
+      <Filter>Vitruvia\Hooks\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\InterfaceList\InterfaceList.cpp">
+      <Filter>Vitruvia\InterfaceList</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Netvars\NetvarManager.cpp">
+      <Filter>Vitruvia\Netvars</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Utils\VitruviaUtils.cpp">
+      <Filter>Vitruvia\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\SourceClasses\C_BaseCombatWeapon.cpp">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\SourceClasses\C_CSPlayer.cpp">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Renderer\Renderer.cpp">
+      <Filter>Vitruvia\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Renderer\Fonts\Fonts.cpp">
+      <Filter>Vitruvia\Renderer\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Offsets\Offsets.cpp">
+      <Filter>Vitruvia\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\Reset.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\EndScene.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\WndProc.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Renderer\D3D\D3D_Renderer.cpp">
+      <Filter>Vitruvia\Renderer\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\GUI.cpp">
+      <Filter>Vitruvia\GUI\Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\Input\MenuInput.cpp">
+      <Filter>Vitruvia\GUI\Legacy\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\CheckBox.cpp">
+      <Filter>Vitruvia\GUI\Legacy\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\DropDown.cpp">
+      <Filter>Vitruvia\GUI\Legacy\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\Frame.cpp">
+      <Filter>Vitruvia\GUI\Legacy\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\GroupBox.cpp">
+      <Filter>Vitruvia\GUI\Legacy\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\KeyReader.cpp">
+      <Filter>Vitruvia\GUI\Legacy\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\MenuItem.cpp">
+      <Filter>Vitruvia\GUI\Legacy\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\Slider.cpp">
+      <Filter>Vitruvia\GUI\Legacy\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Legacy\MenuItems\Tab.cpp">
+      <Filter>Vitruvia\GUI\Legacy\MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\ImGui\imgui.cpp">
+      <Filter>Vitruvia\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\ImGui\imgui_draw.cpp">
+      <Filter>Vitruvia\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\ImGui\DX9\imgui_impl_dx9.cpp">
+      <Filter>Vitruvia\GUI\ImGui\DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\GUI\Menu.cpp">
+      <Filter>Vitruvia\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Features\Rage\Rage.cpp">
+      <Filter>Vitruvia\Features\Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Features\HvH\HvH.cpp">
+      <Filter>Vitruvia\Features\HvH</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Features\Misc\Misc.cpp">
+      <Filter>Vitruvia\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Skins\KitParser\KitParser.cpp">
+      <Filter>Vitruvia\Skins\KitParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Skins\ItemDefinitions\ItemDefinitions.cpp">
+      <Filter>Vitruvia\Skins\ItemDefinitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Features\Skins\Skins.cpp">
+      <Filter>Vitruvia\Features\Skins</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\Netvar Proxies\Sequence.cpp">
+      <Filter>Vitruvia\Hooks\Functions\Netvar Proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\RenderView.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\Netvar Proxies\DidSmokeEffect.cpp">
+      <Filter>Vitruvia\Hooks\Functions\Netvar Proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Interfaces\Client\SpoofedConvar.cpp">
+      <Filter>SourceSDK\Interfaces\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Tools\GrenadePrediction.cpp">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Tools\EnginePrediction.cpp">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Tools\Autowall.cpp">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Tools\ThirdPerson.cpp">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\EmitSound.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\TraceRay.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\DispatchUserMessage.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Tools\SpreadManager.cpp">
+      <Filter>Vitruvia\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\OverrideConfig.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\Netvar Proxies\LowerBodyYawTarget.cpp">
+      <Filter>Vitruvia\Hooks\Functions\Netvar Proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Utils\CrashLogger\CrashLogger.cpp">
+      <Filter>Vitruvia\Utils\CrashLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\IsBoxVisible.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Utils\GameHelper\GameHelper.cpp">
+      <Filter>Vitruvia\Utils\GameHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\SourceClasses\C_BaseAnimatingOverlay.cpp">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\Hooks\Functions\WriteUserCmdDeltaToBuffer.cpp">
+      <Filter>Vitruvia\Hooks\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\SourceClasses\C_EconItem.cpp">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Vitruvia\SourceClasses\C_PlayerInventory.cpp">
+      <Filter>Vitruvia\SourceClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
